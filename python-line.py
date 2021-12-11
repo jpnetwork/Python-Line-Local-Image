@@ -11,4 +11,5 @@ def linenotify(message):
   session_post = session.post(url, headers=headers, files=img, data =data)
   print(session_post.text) 
   
+message = 'Hello Python' #Set your message here!
 linenotify(message)
